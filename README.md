@@ -10,7 +10,7 @@ Protokol ini memaksa AI memahami arsitektur, memeriksa kodebase yang ada, memvis
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 1. **3-Tier Complexity Triage (Adaptif & Hemat Token):**
    * **Tier 1 (Trivial):** Langsung eksekusi tanpa birokrasi, tanpa kunci (*lock*), dan tanpa diagram.
@@ -25,7 +25,7 @@ Protokol ini memaksa AI memahami arsitektur, memeriksa kodebase yang ada, memvis
 
 ---
 
-## 📖 Panduan Lengkap Cara Pakai (Workflow Sehari-hari)
+## Panduan Penggunaan (Workflow Harian)
 
 Setelah protokol ini terpasang di proyek atau lingkungan Anda, **Anda tidak perlu menghafal perintah rumit**. Cukup ajak AI berbicara seperti biasa. AI akan secara otomatis mengklasifikasikan tugas Anda ke dalam 3 tingkatan (Tier):
 
@@ -82,7 +82,7 @@ Gunakan saat Anda memulai fitur besar, modul pembayaran, autentikasi, integrasi 
 * **Langkah 2: AI Mengunci Eksekusi & Menyajikan Rancangan Visual**
   AI akan menjalankan **Phase 0 (Inspeksi)**, lalu merespon dengan:
   ```markdown
-  🔒 [EXECUTION LOCKED] Sebelum mulai koding, berikut arsitektur dan alur yang diusulkan:
+  [EXECUTION LOCKED] Sebelum mulai koding, berikut arsitektur dan alur yang diusulkan:
 
   ### Visual Flow
   ```mermaid
@@ -95,10 +95,10 @@ Gunakan saat Anda memulai fitur besar, modul pembayaran, autentikasi, integrasi 
   ```
 
   ### Pilihan Arsitektur & Rekomendasi (1-3-1)
-  - ⭐️ **Opsi A: Client-side Geofencing + Server Verification (Recommended)**
+  - **Opsi A: Client-side Geofencing + Server Verification (Recommended)**
     - *Kelebihan:* Ringan, validasi ganda aman dari manipulasi fake GPS.
     - *Trade-off:* Memerlukan sedikit setup library enkripsi payload.
-  - 🔹 **Opsi B: Simple Server GPS Checking (Fast MVP)**
+  - **Opsi B: Simple Server GPS Checking (Fast MVP)**
     - *Kelebihan:* Sangat cepat dibangun dalam hitungan jam.
     - *Trade-off:* Rentan di-bypass aplikasi Fake GPS root.
 
@@ -114,7 +114,7 @@ Gunakan saat Anda memulai fitur besar, modul pembayaran, autentikasi, integrasi 
 
 ---
 
-## 🛠️ Cara Pasang di Berbagai Platform
+## Panduan Integrasi Platform
 
 ### 1. Cursor IDE & Windsurf
 Salin berkas `.cursorrules` ke folder utama (*root*) repositori proyek Anda:
@@ -163,7 +163,7 @@ Bagi pengguna yang ngoding lewat browser tanpa terminal/IDE:
 
 ---
 
-## ⚙️ Cara Aktifkan & Non-Aktifkan Skill (Toggle Control)
+## Kontrol Status Skill (Toggle Control)
 
 Jika sewaktu-waktu Anda ingin mematikan aturan ini (misalnya ingin eksplorasi koding santai tanpa aturan) dan mengaktifkannya kembali saat mengerjakan proyek serius:
 
@@ -195,7 +195,7 @@ chmod +x toggle.sh
 
 ---
 
-## 💡 Tips Praktis untuk Hasil Terbaik
+## Praktik Terbaik (Best Practices)
 
 1. **Gunakan Model Penalaran Tinggi:** Protokol ini memberikan performa terbaik pada model *frontier* seperti **Claude 3.5/3.7 Sonnet, GPT-4o, Gemini 2.0 Pro, atau Gemini 3 Flash**.
 2. **Jangan Mengubah Kode Manual Saat Phase 2:** Tunggu hingga AI selesai merender diagram dan Anda menentukan opsi, agar AI tidak bingung membaca status git yang kotor (*dirty tree*).
@@ -203,6 +203,6 @@ chmod +x toggle.sh
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 
 Proyek ini dirilis di bawah lisensi terbuka [MIT License](LICENSE) — bebas digunakan, dimodifikasi, dan didistribusikan untuk keperluan personal maupun komersial.
