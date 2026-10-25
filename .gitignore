@@ -1,0 +1,13 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Temporary & Disabled States
+*.disabled
+*.bak
+*.tmp
+
+# Local Contracts / Notes (optional)
+# SPEC.md
